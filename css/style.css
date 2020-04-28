@@ -115,7 +115,7 @@ img {
 /* MAIN */
 .bg-title {
   background-image: linear-gradient(rgba(0, 0, 2, 0.522), rgba(0, 0, 2, 0.522)),
-    url("../images/background/bg-title.png");
+    url("../images/Background/bg-title.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -176,13 +176,13 @@ img {
 
 .prev {
   float: left;
-  background-image: url("../images/button/prev.png");
+  background-image: url("../images/Button/prev.png");
   margin-left: 244px;
 }
 
 .next {
   float: right;
-  background-image: url("../images/button/next.png");
+  background-image: url("../images/Button/next.png");
   margin-right: 244px;
 }
 
@@ -356,19 +356,19 @@ img {
 }
 
 .icons_button_heart {
-  background-image: url(../images/button/heart.png);
+  background-image: url(../images/Button/heart.png);
 }
 
 .icons_button_versus {
-  background-image: url(../images/button/versus.png);
+  background-image: url(../images/Button/versus.png);
 }
 
 .icons_button_clock {
-  background-image: url(../images/button/clock.png);
+  background-image: url(../images/Button/clock.png);
 }
 
 .icons_button-add {
-  background-image: url(../images/button/truck.png);
+  background-image: url(../images/Button/truck.png);
   background-repeat: no-repeat;
   background-position: 10px 10px;
 }
