@@ -1,411 +1,411 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .visually-hidden {
-    /* Удаляем элемент из потока документа */
-    position: absolute;
-    /* Временное решение для неверно произносимого, размазанного текста */
-    white-space: nowrap;
-    /* Устанавливаем минимально возможный размер (некоторые скринридеры игнорируют элементы с нулевой высотой и шириной) */
-    width: 1px;
-    height: 1px;
-    /* Скрываем вылезающий за границы контент */
-    overflow: hidden;
-    /* Сбрасываем любые свойства, которые могут повлиять на размер элемента */
-    border: 0;
-    padding: 0;
-    /* Вырезаем ту часть контента, которая должна отображаться. */
-    /* Устаревшее свойство clip для старых браузеров */
-    clip: rect(0 0 0 0);
-    /* clip-path для новых браузеров. inset(50%) определяет область вставки, которая позволит контенту исчезнуть.  */
-    clip-path: inset(50%);
-    /* Похоже, никто до конца не понимает, почему тут margin: -1px. Кроме того, это приводит к проблемам (читай: https://github.com/h5bp/html5-boilerplate/issues/1985). */
-    margin: -1px;
+  /* Удаляем элемент из потока документа */
+  position: absolute;
+  /* Временное решение для неверно произносимого, размазанного текста */
+  white-space: nowrap;
+  /* Устанавливаем минимально возможный размер (некоторые скринридеры игнорируют элементы с нулевой высотой и шириной) */
+  width: 1px;
+  height: 1px;
+  /* Скрываем вылезающий за границы контент */
+  overflow: hidden;
+  /* Сбрасываем любые свойства, которые могут повлиять на размер элемента */
+  border: 0;
+  padding: 0;
+  /* Вырезаем ту часть контента, которая должна отображаться. */
+  /* Устаревшее свойство clip для старых браузеров */
+  clip: rect(0 0 0 0);
+  /* clip-path для новых браузеров. inset(50%) определяет область вставки, которая позволит контенту исчезнуть.  */
+  clip-path: inset(50%);
+  /* Похоже, никто до конца не понимает, почему тут margin: -1px. Кроме того, это приводит к проблемам (читай: https://github.com/h5bp/html5-boilerplate/issues/1985). */
+  margin: -1px;
 }
 
 /* HEADER */
 .header {
-    margin: 34px auto 32px;
-    display: block;
+  margin: 34px auto 32px;
+  display: block;
 }
 
 .conteiner {
-    width: 1600px;
-    margin: 0 auto;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .navigation {
-    width: 1110px;
-    margin: 0 auto;
+  width: 1110px;
+  margin: 0 auto;
 }
 
 .logotype {
-    float: left;
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    font-weight: 300;
-    color: #555252;
-    line-height: 32px;
-    text-decoration: none;
-    letter-spacing: -0.6px;
+  float: left;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #555252;
+  line-height: 32px;
+  text-decoration: none;
+  letter-spacing: -0.6px;
 }
 
 .logotype::first-letter {
-    color: #1abc9c;
+  color: #1abc9c;
 }
 
 .navigation_list {
-    float: right;
+  float: right;
 }
 
 .navigation_list-item {
-    float: left;
+  float: left;
 }
 
 .navigation_list-link:hover {
-    color: #1abc9c;
+  color: #1abc9c;
 }
 
 .navigation_list-link {
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #0f0101;
-    line-height: 17px;
-    display: inline-block;
-    margin-top: 6px;
-    text-decoration: none;
-    letter-spacing: -0.28px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0f0101;
+  line-height: 17px;
+  display: inline-block;
+  margin-top: 6px;
+  text-decoration: none;
+  letter-spacing: -0.28px;
 }
 
 .navigation_list-item {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .navigation_list-item:last-child {
-    margin-right: 0px;
+  margin-right: 0px;
 }
 
 /* MAIN */
 .bg-title {
-    background-image: linear-gradient(rgba(0, 0, 2, 0.522), rgba(0, 0, 2, 0.522)),
-        url("../images/Background/bg-title.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
+  background-image: linear-gradient(rgba(0, 0, 2, 0.522), rgba(0, 0, 2, 0.522)),
+    url("../images/background/bg-title.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .flip {
-    width: 738px;
-    margin: 0 auto;
+  width: 738px;
+  margin: 0 auto;
 }
 
 .flipping_menu {
-    font-size: 60px;
-    line-height: 82px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: "Roboto", serif;
-    font-weight: 900;
-    letter-spacing: -1.2;
-    text-align: left;
-    padding-top: 206px;
+  font-size: 60px;
+  line-height: 82px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  letter-spacing: -1.2;
+  text-align: left;
+  padding-top: 206px;
 }
 
 .flipping_menu-about {
-    font-size: 24px;
-    line-height: 54px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: "Roboto", serif;
-    font-weight: 300;
-    letter-spacing: -0.48;
-    text-align: left;
-    padding: 11px 0px 284px;
+  font-size: 24px;
+  line-height: 54px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  letter-spacing: -0.48;
+  text-align: left;
+  padding: 11px 0px 284px;
 }
 
 .button {
-    position: absolute;
-    width: 100%;
-    top: 228px;
+  position: absolute;
+  width: 100%;
+  top: 228px;
 }
 
 .bg-title_button {
-    width: 104px;
-    height: 104px;
-    background-color: rgba(26, 188, 156, 0.651);
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: none;
-    cursor: pointer;
+  width: 104px;
+  height: 104px;
+  background-color: rgba(26, 188, 156, 0.651);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
 }
 
 .bg-title_button:hover {
-    background-color: rgba(26, 188, 156, 1);
+  background-color: rgba(26, 188, 156, 1);
 }
 
 .prev {
-    float: left;
-    background-image: url("../images/button/prev.png");
-    margin-left: 244px;
+  float: left;
+  background-image: url("../images/button/prev.png");
+  margin-left: 244px;
 }
 
 .next {
-    float: right;
-    background-image: url("../images/button/next.png");
-    margin-right: 244px;
+  float: right;
+  background-image: url("../images/button/next.png");
+  margin-right: 244px;
 }
 
 /* COLLECTION */
 
 .title-products h2 {
-    font-size: 48px;
-    line-height: 58px;
-    color: #515151;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: "Roboto", serif;
-    font-weight: 900;
-    padding-top: 96px;
+  font-size: 48px;
+  line-height: 58px;
+  color: #515151;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  padding-top: 96px;
 }
 
 .title-products h2:after {
-    content: "";
-    display: block;
-    background-color: #1abc9c;
-    height: 8px;
-    width: 164px;
-    margin: 26px 718px;
+  content: "";
+  display: block;
+  background-color: #1abc9c;
+  height: 8px;
+  width: 164px;
+  margin: 26px 718px;
 }
 
 .product {
-    background-color: #e9f0fd;
+  background-color: #e9f0fd;
 }
 
 .product li {
-    list-style: none;
-    text-transform: uppercase;
-    float: left;
-    height: 322px;
-    width: 254px;
+  list-style: none;
+  text-transform: uppercase;
+  float: left;
+  height: 322px;
+  width: 254px;
 }
 
 .product a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .product-name {
-    background-color: #323232;
-    color: #ffffff;
-    height: 40px;
-    width: 200px;
-    float: left;
-    font-size: 18px;
-    font-family: "Roboto", serif;
-    font-weight: 900;
+  background-color: #323232;
+  color: #ffffff;
+  height: 40px;
+  width: 200px;
+  float: left;
+  font-size: 18px;
+  font-family: "Roboto", serif;
+  font-weight: 900;
 }
 
 .product-name h3 {
-    margin: 7px 0 0 14px;
-    display: inline-block;
+  margin: 7px 0 0 14px;
+  display: inline-block;
 }
 
 .product-card {
-    height: 282px;
-    width: 255px;
+  height: 282px;
+  width: 255px;
 }
 
 .product-price {
-    color: #ffffff;
-    background-color: #818181;
-    float: right;
-    height: 40px;
-    width: 54px;
-    font-size: 18px;
-    line-height: 32px;
-    font-family: "Roboto", serif;
-    font-weight: 900;
-    text-align: center;
+  color: #ffffff;
+  background-color: #818181;
+  float: right;
+  height: 40px;
+  width: 54px;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  text-align: center;
 }
 
 .product-price h3 {
-    margin: 5px 6px;
+  margin: 5px 6px;
 }
 
 .product-price h3::before {
-    content: "\0024";
+  content: "\0024";
 }
 
 .product li:nth-of-type(n + 1) {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .product li:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .product li:nth-child(1) {
-    margin-left: 245px;
+  margin-left: 245px;
 }
 
 .product li:nth-child(4) {
-    margin-right: 245px;
+  margin-right: 245px;
 }
 
 .collection_list {
-    padding-top: 80px;
-    padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 .link-info {
-    position: relative;
+  position: relative;
 }
 
 .link-info:hover .product-name {
-    background-color: rgb(26, 188, 156);
+  background-color: rgb(26, 188, 156);
 }
 
 .link-info:hover .product-price {
-    background-color: #7fd9c7;
+  background-color: #7fd9c7;
 }
 
 .overlay {
-    width: 254px;
-    height: 282px;
-    background-color: rgba(0, 0, 0, 0.549);
-    position: absolute;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    opacity: 0;
-    border: 10px solid rgba(255, 255, 255, 0.549);
-    background-clip: padding-box;
+  width: 254px;
+  height: 282px;
+  background-color: rgba(0, 0, 0, 0.549);
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  border: 10px solid rgba(255, 255, 255, 0.549);
+  background-clip: padding-box;
 }
 
 .icons_button {
-    width: 48px;
-    height: 48px;
-    border: 1px solid #fff;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0);
+  width: 48px;
+  height: 48px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .icons_button {
-    margin: 90px 6px 6px 0;
+  margin: 90px 6px 6px 0;
 }
 
 .icons_button:first-child {
-    margin-left: 36px;
+  margin-left: 36px;
 }
 
 .icons_button:hover {
-    background-color: #1abc9c;
+  background-color: #1abc9c;
 }
 
 .icons_button-add:hover {
-    background-color: #1abc9c;
+  background-color: #1abc9c;
 }
 
 .link-info:hover .overlay {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 .icons_button-add {
-    width: 164px;
-    height: 48px;
-    background-color: rgb(50, 50, 50);
-    border: 1px solid #fff;
-    cursor: pointer;
-    margin-left: 36px;
+  width: 164px;
+  height: 48px;
+  background-color: rgb(50, 50, 50);
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin-left: 36px;
 }
 
 .icons_button {
-    background-repeat: no-repeat;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .icons_button_heart {
-    background-image: url(../images/Button/heart.png);
+  background-image: url(../images/button/heart.png);
 }
 
 .icons_button_versus {
-    background-image: url(../images/Button/versus.png);
+  background-image: url(../images/button/versus.png);
 }
 
 .icons_button_clock {
-    background-image: url(../images/Button/clock.png);
+  background-image: url(../images/button/clock.png);
 }
 
 .icons_button-add {
-    background-image: url(../images/Button/truck.png);
-    background-repeat: no-repeat;
-    background-position: 10px 10px;
+  background-image: url(../images/button/truck.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
 }
 
 .icons_button-add span {
-    color: #fff;
-    line-height: 32px;
-    font-family: "Open Sans", serif;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: -.28;
-    margin-left: 20px;
+  color: #fff;
+  line-height: 32px;
+  font-family: "Open Sans", serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.28;
+  margin-left: 20px;
 }
 
 /* FOOTER */
 .footer-info {
-    width: 1600px;
-    background-color: rgb(50, 50, 50);
+  width: 1600px;
+  background-color: rgb(50, 50, 50);
 }
 
 .info {
-    font-size: 16px;
-    line-height: 28px;
-    font-family: "Open Sans", serif;
-    font-weight: 400;
-    letter-spacing: -0.32;
-    text-align: center;
-    color: rgb(254, 254, 254);
-    padding: 32px 0 26px;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Open Sans", serif;
+  font-weight: 400;
+  letter-spacing: -0.32;
+  text-align: center;
+  color: rgb(254, 254, 254);
+  padding: 32px 0 26px;
 }
 
 .dokan::before {
-    content: "\00A9";
+  content: "\00A9";
 }
 
 .info-blue {
-    color: rgb(70, 191, 169);
-    text-decoration: none;
+  color: rgb(70, 191, 169);
+  text-decoration: none;
 }
